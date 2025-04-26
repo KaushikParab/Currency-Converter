@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #4C585B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    background-color: #7E99A3;
+    height: 50vh;
+    width: 24vw;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.heading {
+    height: 10vh;
+    width: 23vw;
+    margin-top: 2vh;
+}
+
+.input {
+    height: 8vh;
+    width: 23vw;
+}
+#inp {
+    box-sizing: border-box;
+    border: none;
+    height: 4vh;
+    width: 22vw;
+    border-radius: 5px;
+}
+#inp:focus{
+    background-color: #aeb4b6;
+}
+
+.sel-country {
+    height: 8vh;
+    width: 23vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.country {
+    height: 5vh;
+    width: auto;
+}
+.country img {
+    position: absolute;
+    height: 20px;
+    margin-left: 3px;
+}
+
+.country select {
+    padding-left: 20px;
+}
+
+.converted-result {
+    height: 12vh;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+}
+
+.btn-div {
+    height: 6vh;
+    width: 23vw;
+    display: flex;
+    justify-content: center;
+}
+.btn-div #btn {
+    position: relative;
+    width: 16vw;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: #F4EDD3;
+    border: none;
+}
+#btn:hover{
+    background-color: #f4edd3cb;
+}

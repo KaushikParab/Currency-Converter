@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h1>Currency Converter</h1>
+            </div>
+            <div class="input">
+                <h3>Enter Amount : </h3>
+                <input type="text" value="1" id="inp">
+            </div>
+            <div class="sel-country">
+                <div class="country">
+                    <p>From</p>
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select id="from" name="from">
+                        <!-- <option value="INR">INR</option>
+                        <option value="USD" selected>USD</option>
+                        <option value="AUD">AUD</option> -->
+                    </select>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="country">
+                    <p>To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <select id="to" name="to">
+                        <!-- <option value="INR">INR</option>
+                        <option value="USD">USD</option>
+                        <option value="AUD">AUD</option> -->
+                    </select>
+                </div>
+            </div>
+            <div class="converted-result">
+                <p></p>
+            </div>
+            <div class="btn-div">
+                <button id="btn">Get Exchange Rate</button>
+            </div>
+        </div>
+        <script src="codes.js"></script>
+        <script src="scriptofcurrencyconverter.js"></script>
+    </body>
+</html>
