@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #4C585B;
+    background-color: #8f9ea2;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
 
 .container {
     position: relative;
-    background-color: #7E99A3;
+    background-color: #c7cfd0;
     height: 50vh;
     width: 24vw;
     padding-left: 20px;
@@ -81,9 +81,12 @@ body {
     width: 16vw;
     height: 5vh;
     border-radius: 8px;
-    background-color: #F4EDD3;
+    background-color: #617074;
     border: none;
 }
 #btn:hover{
-    background-color: #f4edd3cb;
+    background-color: #4c585b;
+    color: #ffffff;
+    transform: scale(1.03);
+    transition: 0.3s;
 }
