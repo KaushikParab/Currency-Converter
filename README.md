@@ -8,6 +8,7 @@ The main purpose of this project is to allow users to convert an amount from one
 
 
 ✨ Features:
+
 Enter Amount: Users can input the amount they wish to convert.
 
 Select Currencies: Dropdowns provided to select the source ("From") and target ("To") currencies.
