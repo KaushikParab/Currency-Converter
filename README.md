@@ -15,4 +15,13 @@ Clean and Minimal UI: The design is user-friendly with a centered card layout an
 
 
 📷 Preview:
-![image alt]()
+![image alt](https://github.com/KaushikParab/Currency-Converter/blob/main/Output/Currency%20Converter%20-%20Google%20Chrome%2027-04-2025%2012_59_39.png?raw=true)
+
+
+
+📑 How to Use:
+
+Enter the amount you want to convert.
+Choose the currency you are converting From and To.
+Click the "Get Exchange Rate" button.
+The converted amount will be displayed instantly.
